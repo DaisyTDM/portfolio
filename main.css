@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Petit+Formal+Script');
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+nav{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+.hero{
+    padding: 6.3cm;
+    text-align: center;
+    background-image: url("./hero-area.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color:rgba(0, 195, 255, 1);
+    text-transform:uppercase;
+    letter-spacing: 1vw;
+}
+.hero h2{
+    font-family: 'Petit Formal Script', cursive;
+}

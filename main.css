@@ -9,7 +9,7 @@ nav{
     justify-content: space-around;
 }
 .hero{
-    padding: 6.3cm;
+    padding: 2cm;
     text-align: center;
     background-image: url("./hero-area.jpg");
     background-repeat: no-repeat;
@@ -24,5 +24,29 @@ nav{
     font-family: 'Petit Formal Script', cursive;
 }
 .half{
+   display: grid;
+   grid-template-columns: 1fr;
+   margin-top: 1cm;
+   grid-gap: 0.5cm; 
+}
+.Pic {
+    width: 95%;
+    margin:auto;
+}
+.container {
+    width: 90vw;
+    margin:auto;
+}
+.noStyleList li {
+    list-style:none;
+    margin-left:-40px;
+}
+@media (min-width:720px) {
+    .hero{
+        padding: 6.3cm;
+    }
+    .half{
+        grid-template-columns: 1fr 1fr
+    }
     
 }
